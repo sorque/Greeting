@@ -32,6 +32,9 @@
                                 <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="SHOW GREETING"/>
+                                <connections>
+                                    <action selector="showGreetingButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="kc6-U1-Dog"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -47,6 +50,10 @@
                             <constraint firstItem="iPt-lP-7lM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="331" id="qO9-1D-3sM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="iPt-lP-7lM" id="bjG-0U-5fr"/>
+                        <outlet property="showGreetingButton" destination="m8u-eJ-jPj" id="oix-42-IGb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
